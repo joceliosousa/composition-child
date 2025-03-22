@@ -14,7 +14,8 @@ Neste fórum falo mais especificamente SAP S/4HANA, on-premise edition or SAP S/
 Defina a feature no BDEF, clique CTRL + 1 para abrir o Quick assist e definir na classe o método relativo a entity-action na classe, automáticamente. A Classe relativa ao BDEF mostrará o novo método privado e sua implementação, que no momento está vazia.
 ![image](https://github.com/user-attachments/assets/b4f70d63-4c95-4098-b123-7aa3f643252f)
 
-![image](https://github.com/user-attachments/assets/d697f799-3865-425b-a118-a79eb8c3dcd8)
+![image](https://github.com/user-attachments/assets/5c2f3c87-c776-475a-988d-5373113d68f8)
+
 
 Abaixo o código relativo a definição da factory action no BDEF e implementação do método CopyInstance.
 
