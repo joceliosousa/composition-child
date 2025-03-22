@@ -1,5 +1,6 @@
 # composition-child
 Composition child exemple
+```
 CLASS zcl_1589_calculation_time_date DEFINITION
   PUBLIC
   FINAL
@@ -11,3 +12,4 @@ CLASS zcl_1589_calculation_time_date DEFINITION
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
+```
