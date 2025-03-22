@@ -91,9 +91,13 @@ Abaixo o código relativo a definição da factory action no BDEF e implementaç
 No exemplo mostrado acima, ele vai copiar não só as linha do cabeçalho mas também os itens, nas duas tabelas child (children?).
 Neste cenário, os dados copiados vão aparecer em tempo de em modo edição - DRAFT, logo após a copia. Se quizer fazer a cópia da linha selecionada mostrando no modo preview, apenas retire a referências: %is_draft = keys[ KEY entity %key = <lfs_root>-%key ]-%param-%is_draft, onde aparecer nesta implementação.
 
-Neste cenário que passo no final todos os objetos, foi utilizado o recurso field ( numbering : managed ), tanto na Root como em cada Child. Também incremento o campo invreno com + 1 para não repetir o mesmo número, apesar de não ser chave. Este campo seria o nosso número da Invoice.
+Neste cenário, que passo no final todos os objetos, foi utilizado o recurso field ( numbering : managed ), tanto na Root como na cada child Items. Também incremento o campo invreno com + 1 para não repetir o mesmo número, apesar de não ser chave. Este campo seria o nosso número da Invoice. A child Billing utiliza um recurso na hora de salvar (with additional save), que explico em outro momento. Existe um botão Create Billing from Item que tem como objetivo criar itens de Billing relativos a todos os Itens, que explicarei em outro momento.
 
 **O resultado é este**:
+![image](https://github.com/user-attachments/assets/ab7c54aa-d986-4453-ac94-f2e2c1c8c4b2)
+
+![image](https://github.com/user-attachments/assets/4f1ba898-4cc1-4b33-8195-38015c747ce7)
+
 
 ## composition-child
 Composition child exemple
