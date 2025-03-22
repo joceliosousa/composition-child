@@ -94,9 +94,11 @@ Neste cenário, os dados copiados vão aparecer em tempo de em modo edição - D
 Neste cenário, que passo no final todos os objetos, foi utilizado o recurso field ( numbering : managed ), tanto na Root como na cada child Items. Também incremento o campo invreno com + 1 para não repetir o mesmo número, apesar de não ser chave. Este campo seria o nosso número da Invoice. A child Billing utiliza um recurso na hora de salvar (with additional save), que explico em outro momento. Existe um botão ** Create Billing from Item ** na child Items que tem como objetivo criar itens de Billing relativos a todos os Itens, que explicarei em outro momento.
 
 **O resultado é este**:
-![image](https://github.com/user-attachments/assets/ab7c54aa-d986-4453-ac94-f2e2c1c8c4b2)
+![image](https://github.com/user-attachments/assets/d9c303aa-e81c-4fe1-b6fa-d96ed08f2143)
 
-![image](https://github.com/user-attachments/assets/4f1ba898-4cc1-4b33-8195-38015c747ce7)
+
+![image](https://github.com/user-attachments/assets/2f1229e8-7abd-4309-9cd0-46fde23c9731)
+
 
 
 ## composition-child
