@@ -45,8 +45,7 @@ Abaixo o código relativo a definição da factory action no BDEF e implementaç
     LOOP AT roots ASSIGNING FIELD-SYMBOL(<lfs_root>).
 
       APPEND VALUE #( %cid = keys[ KEY entity %key = <lfs_root>-%key ]-%cid
-                      invreno = <lfs_root>-invreno + 1
-                     %is_draft = keys[ KEY entity %key = <lfs_root>-%key ]-%param-%is_draft
+                      %is_draft = keys[ KEY entity %key = <lfs_root>-%key ]-%param-%is_draft
                       %control-hdrkey = if_abap_behv=>mk-off
                       %data = CORRESPONDING #( <lfs_root> EXCEPT hdrkey )
        )  TO header ASSIGNING FIELD-SYMBOL(<lfs_header>).
