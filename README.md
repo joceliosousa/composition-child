@@ -360,14 +360,7 @@ define root view entity yc_header_info
           ShipQuan,
           UpdBy,
           upd_at,
-          locallastchangedat as locallastchangedat,
-          @ObjectModel.virtualElementCalculatedBy: 'ABAP:YCL_VIRTUALFL'
-          @UI: {
-          lineItem:       [ { position: 50, importance: #HIGH } ],
-          identification: [ { position: 50, label: 'Amount' } ] }
-          @Search.defaultSearchElement: true
-
-  virtual Amount : abap.int4,
+          locallastchangedat as locallastchangedat
           /* Associations */
           _Item    : redirected to composition child yc_item_info,
           _billing : redirected to composition child yc_billing_info
