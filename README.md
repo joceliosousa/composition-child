@@ -500,8 +500,7 @@ annotate view yc_item_info with
                ]
 
   @UI: {
-    lineItem:       [ { position: 10, importance: #HIGH } ,
-                        { type: #FOR_ACTION, dataAction: 'YC_HEADER_INFO.createChildFromRoot', label: 'Create Billing From Item' } ],
+    lineItem:       [ { position: 10, importance: #HIGH } ],
     identification: [ { position: 10, label: 'ITem No' } ] }
 
 
@@ -534,7 +533,7 @@ annotate view yc_item_info with
 
 ```
 
-**Behavior definition**
+**Behavior definition Root**
 ```
 managed implementation in class ybp_i_header_info unique;
 strict( 2 ) ;
@@ -636,6 +635,8 @@ authorization dependent by _Header
 
 }
 
+**Behavior definition Projection**
+```
 projection;
 strict ( 2 );
 use draft;
@@ -674,6 +675,8 @@ define behavior for yc_item_info alias Item
 
   use association _Header;
 }
+
+```
 
 ```
 **Service Definition**
