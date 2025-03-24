@@ -842,3 +842,13 @@ CLASS lsc_zi_header_info IMPLEMENTATION.
 
 ENDCLASS.
 ```
+
+
+**Service binding**
+![image](https://github.com/user-attachments/assets/5a2d6503-93cf-4bf3-a817-bb6b61099218)
+
+Configurar odata V4 na transação /IWFND/V4_ADMIN.
+
+A partir deste cenário é possível implementar alguns outros recursos e futuramente pretendo trazer aqui. 
+
+Abraço e até a próxima...
