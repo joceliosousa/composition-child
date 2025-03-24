@@ -680,7 +680,6 @@ define behavior for yc_item_info alias Item
 
 ```
 
-```
 **Service Definition**
 ```
 @EndUserText.label: 'Service binding on projection entity'
