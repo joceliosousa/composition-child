@@ -847,8 +847,8 @@ ENDCLASS.
 **Service binding**
 ![image](https://github.com/user-attachments/assets/5a2d6503-93cf-4bf3-a817-bb6b61099218)
 
-Diferente do odata v2, para publicar odata V4 é preciso ser feito na transação /IWFND/V4_ADMIN.
+Diferente do odata v2, para publicar odata V4 é preciso ser feito na transação /IWFND/V4_ADMIN. clicar em preview para abrir o app.
 
-A partir deste cenário é possível implementar alguns outros recursos e futuramente pretendo trazer aqui. 
+A partir deste cenário é possível implementar alguns outros recursos, alguns deles bem bacanas e saindo do formo, e futuramente pretendo trazer aqui. 
 
 Abraço e até a próxima...
