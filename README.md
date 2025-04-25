@@ -5,7 +5,7 @@ Quem nunca recebeu solicitação de usuário para ter um botão com este recurso
 
 Neste fórum falo mais especificamente SAP S/4HANA, on-premise edition or SAP S/4HANA Cloud, private edition (https://help.sap.com/docs/identity-provisioning/identity-provisioning/proxy-sap-s-4hana-on-premise) e como utlizar a feature. No final passo o código exemplo de todos os objetos criados para ter o cenário do Copy instance, dentre eles: Database table, CDS, BDEF...
 
-> [!NOTE]
+> !NOTE
 > Verificar versão da feature BDEF no link: https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/ABENRAP_FEATURE_TABLE.html.
 ![image](https://github.com/user-attachments/assets/108242d1-6313-47e0-ad87-509b88fd0a18)
 ![image](https://github.com/user-attachments/assets/4d0015cc-0087-42cf-bf93-cab7670e4fec)
